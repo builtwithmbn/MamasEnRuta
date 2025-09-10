@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MamáEnRuta</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="relative bg-cover bg-center h-screen flex items-center justify-center" style="background-image: url('img/family-supermarket-woman-brown-t-shirt-people-choose-vegetables-mother-with-daughter.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+    <div class="relative z-10 text-center px-6">
+      <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">MamáEnRuta</h1>
+      <p class="text-lg md:text-2xl text-white mb-8">Conecta con otras madres como tú, en tus rutinas diarias y sin complicaciones.</p>
+      <a href="#contacto" class="bg-pink-500 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-pink-600 transition">Únete ahora</a>
+    </div>
+  </section>
+
+  <!-- Sobre nosotros -->
+  <section class="py-16 px-6 md:px-20 text-center">
+    <h2 class="text-3xl font-bold mb-6">Conexiones reales en tu día a día</h2>
+    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+      MamáEnRuta transforma tus rutinas diarias en oportunidades para conocer a otras madres. Ya sea en el parque, en el súper o durante un paseo, podrás generar amistades auténticas en encuentros breves y sin esfuerzo extra.
+    </p>
+  </section>
+
+  <!-- Imágenes destacadas -->
+  <section class="grid md:grid-cols-3 gap-6 px-6 md:px-20 pb-16">
+    <img src="https://www.freepik.com/free-photo/family-supermarket-woman-brown-t-shirt-people-choose-vegetables-mother-with-daughter_11757224.htm#fromView=search&page=1&position=12&uuid=3ad0578c-c608-475a-97fc-b431ee3c95c2&query=Mamas+haciendo+la+compra">
+    <img src="https://www.freepik.com/free-photo/two-young-mothers-walking-autumn-park-with-carriages_6212784.htm#fromView=search&page=1&position=27&uuid=fb8fdd8c-a4d6-480d-bc45-b023af6e6d5c&query=Mamas+haciendo+la+compra+acompa%C3%B1adas+de+su+bebe+y+otra+mama">
+    <img src="https://www.freepik.com/free-photo/full-shot-woman-kid-outdoors_17239933.htm#fromView=search&page=1&position=19&uuid=255e89bc-2e51-4952-9c76-1c6ad0f8df15&query=Mamas+haciendo+ejercicio+con+su+bebe+en+el+parque">
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto" class="bg-white py-16 px-6 md:px-20">
+    <div class="max-w-2xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center">Contáctanos</h2>
+      <p class="text-lg text-gray-600 mb-8 text-center">¿Quieres formar parte de la comunidad MamáEnRuta? Déjanos tus datos y te contactaremos.</p>
+
+      <form action="https://formsubmit.co/maria.baron.nieto@gmail.com" method="POST" class="space-y-6 bg-gray-50 p-8 rounded-2xl shadow-lg">
+        <input type="text" name="nombre" placeholder="Tu nombre" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-400">
+        <input type="email" name="email" placeholder="Tu correo electrónico" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-400">
+        <textarea name="mensaje" rows="4" placeholder="Cuéntanos un poco sobre ti..." required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-400"></textarea>
+        <button type="submit" class="w-full bg-pink-500 text-white py-3 rounded-lg font-semibold hover:bg-pink-600 transition">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 MamáEnRuta. Todos los derechos reservados.</p>
+    <p class="mt-2 text-sm">Contacto: <a href="mailto:maria.baron.nieto@gmail.com" class="underline">maria.baron.nieto@gmail.com</a></p>
+  </footer>
+
+</body>
+</html>
